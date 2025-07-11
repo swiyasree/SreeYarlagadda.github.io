@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <title>Sree Swiya Yarlagadda – Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>  
+  <!-- ===== Hero Section ===== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="name-highlight">Swiya</span></h1>
+      <h2><span id="typed"></span></h2>
+      <p class="static-subtitle">Machine Learning Engineer | LLMs | MLOps | Recommender Systems | RAG | OCR</p>
+      <a href="#projects" class="cta-btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- ===== Navigation Bar ===== -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <!-- Removed direct projects.html link -->
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== About Section ===== -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a passionate Machine Learning Engineer with hands-on experience in LLM systems, MLOps infrastructure, recommendation engines, and document processing pipelines. I thrive at the intersection of research and real-world application.
+    </p>
+  </section>
+
+  <!-- ===== Projects Section ===== -->
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Diagnosis Classification with Decision Trees & Pruning</h3>
+      <p>Used cost-complexity pruning to prevent overfitting while classifying diagnosis outcomes.</p>
+    </div>
+      <div class="project-card">
+        <h3>Human Activity Recognition (Multisensor Time Series)</h3>
+      <p>Built a classifier for wearable sensor time series data to recognize human physical activity.</p>
+      </div>
+      <div class="project-card">
+        <h3>Power Output Prediction (Combined Cycle Plant)</h3>
+        <p>Modeled energy output based on sensor variables like temperature and pressure from power plants.</p>
+      </div>
+    </div>
+    <!-- Link to full project page -->
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="projects.html" class="cta-btn">See All Projects →</a>
+    </div>
+  </section>
+
+  <!-- ===== Experience Section ===== -->
+  <section class="experience" id="experience">
+    <h2>Experience</h2>
+    <div class="exp-entry">
+      <h3>ML Research Assistant – USC</h3>
+      <span>Aug 2023 – May 2025</span>
+      <p>Built hallucination detection, LangGraph workflows, FastAPI deployment for LLMs. Benchmarked RAG retrievers and maintained LangSmith dashboards.</p>
+    </div>
+    <div class="exp-entry">
+      <h3>ML Engineer – Walmart Global Tech</h3>
+      <span>Jan 2021 – Dec 2022</span>
+      <p>Created real-time ML infra for product recommendation using Redis, SageMaker, MLflow, Prometheus, and GitHub CI/CD.</p>
+    </div>
+    <div class="exp-entry">
+      <h3>Project Intern – TCS</h3>
+      <span>Jul 2020 – Dec 2020</span>
+      <p>Developed OCR-based parsing pipelines with spaCy, CNN layout detection, and real-time QA dashboards.</p>
+    </div>
+  </section>
+
+  <!-- ===== Education Section ===== -->
+  <section class="education" id="education">
+    <h2>Education</h2>
+    <p><strong>Master of Science in Computer Science</strong><br>University of Southern California, Jan 2023 – May 2025</p>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section class="contact" id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:sreeswiyayarlagadda@gmail.com">sreeswiyayarlagadda@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/swiya-yarlagadda" target="_blank">swiya-yarlagadda</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Sree Swiya Yarlagadda • All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

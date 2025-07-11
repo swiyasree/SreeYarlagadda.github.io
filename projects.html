@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My ML Projects – Sree Swiya</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: linear-gradient(to right, #C8AAAA, #FFDAB3);
+      color: #574964;
+      font-family: 'Inter', sans-serif;
+    }
+    .project-detail-container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 80px 10%;
+      animation: fadeInUp 1s ease forwards;
+    }
+    .project-detail-card {
+      background: #FFF4F4;
+      margin-bottom: 2.5rem;
+      padding: 1.8rem;
+      border-left: 5px solid #C8AAAA;
+      border-radius: 10px;
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.07);
+      transition: transform 0.3s ease;
+      color: #574964;
+    }
+    .project-detail-card:hover {
+      transform: translateY(-6px);
+    }
+    .project-detail-card h3 {
+      color: #C8AAAA;
+      margin-bottom: 0.4rem;
+      font-size: 1.2rem;
+    }
+    .project-detail-card p {
+      font-size: 1rem;
+      margin-bottom: 0.6rem;
+    }
+    .project-detail-card a {
+      font-weight: 600;
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #9F8383;
+    }
+    .project-detail-card a:hover {
+      text-decoration: underline;
+    }
+    .back-link {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 1rem;
+    }
+    .back-link a {
+      color: #574964;
+      font-weight: 600;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      position: relative;
+      text-align: center;
+    }
+    h2::after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 4px;
+      background: #574964;
+      margin: 10px auto 0;
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="project-detail-container">
+    <h2>My ML & Web Tech Projects</h2>
+
+    <div class="project-detail-card">
+      <h3>Diagnosis Classification with Decision Trees & Pruning</h3>
+      <p>Used cost-complexity pruning to prevent overfitting while classifying diagnosis outcomes.</p>
+      <p><strong>Tech:</strong> scikit-learn, decision trees, pruning</p>
+      <a href="https://github.com/swiyasree/Diagnosis_Classification_using_Decision_Trees_and_Cost-Complexity_Pruning" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-detail-card">
+      <h3>Human Activity Recognition (Multisensor Time Series)</h3>
+      <p>Built a classifier for wearable sensor time series data to recognize human physical activity.</p>
+      <p><strong>Tech:</strong> pandas, matplotlib, scikit-learn</p>
+      <a href="https://github.com/swiyasree/Human_Activity_Recognition_using_Multisensor_Time_Series_Data" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-detail-card">
+      <h3>Power Output Prediction (Combined Cycle Plant)</h3>
+      <p>Modeled energy output based on sensor variables like temperature and pressure from power plants.</p>
+      <p><strong>Tech:</strong> regression, seaborn, pandas</p>
+      <a href="https://github.com/swiyasree/Power-Output-Prediction-using-Combined-Cycle-Power-Plant-Dataset" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-detail-card">
+      <h3>Binary Classification with Custom Train-Test Splits</h3>
+      <p>Explored the effects of stratified vs. random splits in binary classification performance.</p>
+      <p><strong>Tech:</strong> sklearn.model_selection, confusion matrix</p>
+      <a href="https://github.com/swiyasree/Binary-Classification-with-Custom-Train-Test-Splits" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-detail-card">
+      <h3>Sentiment Classification (Final Project)</h3>
+      <p>Built a text classifier for sentiment analysis using classical and deep learning methods.</p>
+      <p><strong>Tech:</strong> NLP, Jupyter, sklearn, preprocessing</p>
+      <a href="https://github.com/swiyasree/Sentiment_Classification" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-detail-card">
+      <h3>Breast Cancer Diagnosis (Classification)</h3>
+      <p>Analyzed breast cancer data for predictive modeling using supervised classifiers.</p>
+      <p><strong>Tech:</strong> feature scaling, logistic regression</p>
+      <a href="https://github.com/swiyasree/Breast_Cancer_Diagnosis" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-detail-card">
+      <h3>APS Failure Prediction</h3>
+      <p>Used anomaly detection to predict rare component failures in APS systems.</p>
+      <p><strong>Tech:</strong> class imbalance handling, SVM</p>
+      <a href="https://github.com/swiyasree/APS-Failure-Prediction" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-detail-card">
+      <h3>Classification Project with SVMs</h3>
+      <p>Applied Support Vector Machines with kernel tuning to solve binary classification tasks.</p>
+      <p><strong>Tech:</strong> SVM, kernel methods, cross-validation</p>
+      <a href="https://github.com/swiyasree/ClassificationProject_SVMs" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-detail-card">
+      <h3>WebDev Projects (Frontend Work)</h3>
+      <p>Full fledged consumer stocks website with real time buy/sell/research company stock options.</p>
+      <p><strong>Tech:</strong> Angular, TypeScript, HTML, CSS, JS</p>
+      <a href="https://github.com/swiyasree/WebDev_Projects" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="back-link">
+      <p><a href="index.html">← Back to Portfolio Home</a></p>
+    </div>
+  </section>
+</body>
+</html>
